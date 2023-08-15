@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 14px;
+}
+body{
+    background-color: #241F47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    :hover{
+        background-color: #60a168;
+    }
+}
+button{
+    display: block;
+    background-color: #7ACD84;
+    color: #241f47;
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+
+    height: 3rem;
+    width: 11.5rem;
+    margin: 1.5rem;
+
+    border-radius: 10rem;
+    border-style: none;
+    box-shadow: 0.2rem 0.1rem #FFF6F0;
+    :hover{
+        box-shadow: 0 10px;
+    }
+}
